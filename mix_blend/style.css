@@ -1,0 +1,30 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    }
+    
+    body {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url('https://ak.picdn.net/shutterstock/videos/1030010189/thumb/4.jpg?ip=x480');
+        background-size: 100% 100%;
+        font-family: 'Bungee Spice', cursive;
+    }
+
+    
+    h1{
+        display: grid;
+        place-items: center;
+      
+        font-size: 10vh;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 46w;
+        height: 20vh;
+        background-color: aliceblue;
+        mix-blend-mode: screen;
+    }

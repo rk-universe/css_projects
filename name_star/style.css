@@ -1,0 +1,39 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Bungee Spice' , cursive;
+    }
+    
+    body {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(8, 14, 41);
+    }
+    h1{
+        color: aliceblue;
+        position: relative;
+        
+    }
+   
+    h1::after{
+        content: "\f005";
+        font-family: "Font Awesome 5 Free";
+        font-weight : 900;  
+        position: absolute;
+        left: 40px;
+        width: 15vw;
+        height: 25px;
+        color: rgb(106, 174, 190);
+        font-size: 30px;
+        display: block;
+        display: flex;
+        justify-content: center;
+        border-bottom: 5px solid rgb(106, 174, 190);
+        bottom: -10px;
+        
+       
+    }
